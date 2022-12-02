@@ -1,0 +1,139 @@
+body {
+  background-color: #ec3f00be;
+  background-image: url("background.jpg");
+  background-repeat: repeat-x;
+  background-size: auto 90px;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 0;
+}
+a {
+  color: #ff3300;
+  font-weight: 800;
+  text-decoration: none;
+}
+h3 {
+  font-size: 18px;
+  margin-top: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.logo {
+  margin: 0;
+  max-height: 250px;
+  text-align: center;
+  padding-top: 15px;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -o-animation: fadein 1s;
+}
+.logo img {
+  max-height: 160px;
+}
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+.card-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+article {
+  width: 73%;
+  animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  -webkit-animation: fadein 5s;
+  -o-animation: fadein 5s;
+}
+aside {
+  width: 25%;
+  animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  -webkit-animation: fadein 5s;
+  -o-animation: fadein 5s;
+}
+.main-wrap {
+  background-color: #fff;
+  padding: 30px 20px;
+}
+aside ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+aside ul li {
+  font-weight: 600;
+}
+.img-main {
+  max-height: 400px;
+  overflow: hidden;
+}
+.img-main img {
+  transition: all ease 2s;
+}
+.img-main img:hover {
+  transform: scale(1.2);
+}
+#img-group > img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+#img-group img:last-child {
+  margin: 0;
+}
+#socials {
+  text-align: center;
+  margin: 35px auto;
+  animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  -webkit-animation: fadein 5s;
+  -o-animation: fadein 5s;
+}
+.comment {
+  padding: 5px 0;
+  border-bottom: 1px solid #000;
+  border-top: 1px dotted #000;
+  margin-bottom: 45px;
+}
+.comment:last-child {
+  margin-bottom: 25px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
